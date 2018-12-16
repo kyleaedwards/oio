@@ -42,7 +42,7 @@ const createFile = (file, cb) => {
       cb();
       return;
     }
-    fs.createFile(file, '', (err) => {
+    fs.writeFile(file, '', (err) => {
       if (err) {
         process.stdout.write(SETUP_ERR);
         process.exit(1);

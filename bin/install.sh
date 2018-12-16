@@ -1,10 +1,14 @@
 #!/bin/bash
 
+rm /usr/local/bin/oio
+
 cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null
 cd .. >/dev/null
 
-yarn
-yarn compile
+echo $PWD
 
-mv "$PWD" /usr/local/lib/oio
-ln -s /usr/local/lib/oio/es5.js /usr/local/bin/oio
+if [ "$PWD" != "/usr/local/lib/oio" ]
+then
+    mv "$PWD" /usr/local/lib/oio
+fi
+ln -s /usr/local/lib/oio/index.js /usr/local/bin/oio
