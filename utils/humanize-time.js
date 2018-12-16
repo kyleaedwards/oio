@@ -1,5 +1,3 @@
-'use strict';
-
 module.exports = (ms) => {
   let t = Math.round(ms / 1000);
   const s = t % 60;

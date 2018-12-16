@@ -1,5 +1,3 @@
-'use strict';
-
 /**
  * Sanitizes a string into a slug form.
  *
