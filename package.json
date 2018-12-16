@@ -1,0 +1,9 @@
+{
+  "name": "oio",
+  "version": "0.1.0",
+  "description": "Command line utility for project-based time tracking",
+  "main": "index.js",
+  "repository": "https://www.kedw.io/projects/oio",
+  "author": "kyleaedwards <edwards.kyle.a@gmail.com>",
+  "license": "MIT"
+}
