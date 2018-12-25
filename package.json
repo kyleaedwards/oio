@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "https://www.kedw.io/projects/oio",
   "author": "kyleaedwards <edwards.kyle.a@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.1"
+  }
 }
